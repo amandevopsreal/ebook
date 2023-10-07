@@ -42,7 +42,7 @@ const Notes = ({ showAlert }) => {
         }
 
         // eslint-disable-next-line
-    }, [])
+    },)
     const ref = useRef(null)
     const refClose = useRef(null)
     return (
